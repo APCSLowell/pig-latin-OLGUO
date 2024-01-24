@@ -40,13 +40,13 @@ public class PigLatin {
     }
 
     public String pigLatin(String sWord) {
-	    if(findFirstVowel(sWord == 0){
+	    if(findFirstVowel(sWord == 0)){
 		    return sWord + "way";
 	    }
 	    else {
 		    return sWord.substring(1,sWord.length()) + sWord.substring(0,1) + "ay";
 	    }
-	    if(sWord.substring(0,2).equals("qu"){
+	    if(sWord.substring(0,2).equals("qu")){
 		    return sWord.substring(2, sWord.length()) + sWord.substring(0,2) + "ay";
 	    }
         //precondition: sWord is a valid String of length greater than 0
